@@ -55,6 +55,7 @@ export default function App() {
           Data.map((item)=>(
              <Text key={item.id}>
             {item.name}{item.email}
+
              </Text>
             // <Text key={item.id}>{item.email}</Text>
           ))
