@@ -45,7 +45,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       {
-       isLoading ? err!=''? <Text>{err}</Text> : <Text>Loading...</Text>
+       isLoading ?<Text>Loading...</Text> : err!=''? <Text>{err}</Text> 
        :
           // <FlatList
           // data = {Data}
